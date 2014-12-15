@@ -41,6 +41,7 @@ brew cask install sublime-text
 brew cask install github
 brew cask install sequel-pro
 brew cask install postgres
+brew cask install iterm2
 
 # Remove outdated versions from the cellar.
 brew cleanup
