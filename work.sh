@@ -34,6 +34,7 @@ brew pin imagemagick
 
 # cleanup
 git reset --hard HEAD
+cd ~
 
 # Ruby
 mkdir ~/.rubies
@@ -47,8 +48,3 @@ ruby-build 1.8.7-p375 .rubies/1.8.7-p375
 
 # ruby 2.1.4, note the CC env variable, which is needed for the newer rubies to compile
 CC=clang ruby-build 2.1.4 .rubies/2.1.4
-
-source /usr/local/share/chruby/chruby.sh
-
-# this is optional if you don't want chruby to automatically switch to the right ruby version for a project
-source /usr/local/share/chruby/auto.sh
