@@ -12,6 +12,7 @@ alias dt="cd ~/Desktop"
 alias c="cd ~/code"
 alias g="git"
 alias h="history"
+alias bex="bundle exec"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
