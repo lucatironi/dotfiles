@@ -14,6 +14,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+brew cask install sequel-pro
+
 brew install memcached
 brew install jansson
 brew install hiredis
