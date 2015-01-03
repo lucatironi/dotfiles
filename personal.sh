@@ -26,7 +26,7 @@ cd ~
 # Ruby
 mkdir ~/.rubies
 
-ruby-build 2.0.0 .rubies/2.0.0
+ruby-build 2.0 .rubies/2.0.0
 
 # ruby 2.1.4, note the CC env variable, which is needed for the newer rubies to compile
 CC=clang ruby-build 2.1.5 .rubies/2.1.5
