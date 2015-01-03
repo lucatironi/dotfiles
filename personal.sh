@@ -14,6 +14,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+brew cask install postgres
+
 brew install chruby
 brew install ruby-build
 
