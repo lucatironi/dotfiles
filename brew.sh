@@ -42,8 +42,6 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install sublime-text
 brew cask install github
-brew cask install sequel-pro
-brew cask install postgres
 brew cask install iterm2
 brew cask install skype
 brew cask install slack
