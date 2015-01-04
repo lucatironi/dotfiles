@@ -17,7 +17,7 @@ brew upgrade
 brew cask install postgres
 
 brew install chruby
-brew install ruby-build
+brew install ruby-install
 
 # cleanup
 git reset --hard HEAD
@@ -26,9 +26,8 @@ cd ~
 # Ruby
 mkdir ~/.rubies
 
-ruby-build 2.0.0-p598 .rubies/2.0.0
+ruby-install ruby 2.0.0
 
-# ruby 2.1.4, note the CC env variable, which is needed for the newer rubies to compile
-CC=clang ruby-build 2.1.5 .rubies/2.1.5
+ruby-install ruby 2.1.5
 
-ruby-build 2.2.0 .rubies/2.2.0
+ruby-install ruby 2.2.0
