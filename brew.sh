@@ -25,6 +25,7 @@ sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 # Install Zsh & oh-my-shell
 brew install Zsh
 curl -L http://install.ohmyz.sh | sh
+chsh -s /bin/zsh
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
