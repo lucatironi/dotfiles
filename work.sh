@@ -48,5 +48,5 @@ brew install apple-gcc42
 # ruby 1.8.7 for legacy app
 ruby-build 1.8.7-p375 .rubies/1.8.7-p375
 
-# ruby 2.1.4, note the CC env variable, which is needed for the newer rubies to compile
-CC=clang ruby-build 2.1.4 .rubies/2.1.4
+# ruby 2.1.5, note the CC env variable, which is needed for the newer rubies to compile
+CC=clang ruby-build 2.1.5 .rubies/2.1.5

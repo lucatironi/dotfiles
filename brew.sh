@@ -22,11 +22,9 @@ brew upgrade
 brew install coreutils
 sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
-# Install Bash 4.
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`.
-brew install bash
-brew install bash-completion
+# Install Zsh & oh-my-shell
+brew install Zsh
+curl -L http://install.ohmyz.sh | sh
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
@@ -45,6 +43,7 @@ brew cask install github
 brew cask install iterm2
 brew cask install skype
 brew cask install slack
+brew cask install flux
 
 # Remove outdated versions from the cellar.
 brew cleanup
