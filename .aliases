@@ -13,6 +13,9 @@ alias c="cd ~/code"
 alias g="git"
 alias h="history"
 alias bex="bundle exec"
+alias sr="bundle exec spring rake"
+alias rs="bundle exec spring rails server"
+alias rc="bundle exec spring rails console"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
