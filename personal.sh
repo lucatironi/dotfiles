@@ -24,8 +24,4 @@ cd ~
 # Ruby
 mkdir ~/.rubies
 
-ruby-install ruby 2.0.0
-
-ruby-install ruby 2.1.5
-
-ruby-install ruby 2.2.0
+ruby-install ruby 2.2.3

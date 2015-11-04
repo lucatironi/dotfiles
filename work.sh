@@ -22,6 +22,7 @@ brew install hiredis
 brew install mysql
 brew install chruby
 brew install ruby-build
+brew install ruby-install
 
 # Install imagemagick
 cd /usr/local
@@ -48,5 +49,6 @@ brew install apple-gcc42
 # ruby 1.8.7 for legacy app
 ruby-build 1.8.7-p375 .rubies/1.8.7-p375
 
-# ruby 2.1.5, note the CC env variable, which is needed for the newer rubies to compile
-CC=clang ruby-build 2.1.5 .rubies/2.1.5
+# new rubies
+ruby-install ruby 2.1.7
+ruby-install ruby 2.2.3
