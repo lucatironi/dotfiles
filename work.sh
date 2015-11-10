@@ -47,7 +47,7 @@ brew tap homebrew/dupes
 brew install apple-gcc42
 
 # ruby 1.8.7 for legacy app
-ruby-build 1.8.7-p375 .rubies/1.8.7-p375
+ruby-build 1.8.7-p374 .rubies/1.8.7-p374
 
 # new rubies
 ruby-install ruby 2.1.7
