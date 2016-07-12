@@ -32,7 +32,7 @@ brew install caskroom/cask/brew-cask
 brew cask install google-chrome
 brew cask install firefox
 brew cask install sublime-text
-brew cask install github
+brew cask install github-desktop
 brew cask install iterm2
 brew cask install skype
 brew cask install slack
