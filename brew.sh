@@ -17,21 +17,13 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# Install GNU core utilities (those that come with OS X are outdated).
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-brew install coreutils
-sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
-
 # Install Zsh & oh-my-shell
 brew install Zsh
 curl -L http://install.ohmyz.sh | sh
 chsh -s /bin/zsh
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
-
-brew install git
-brew install redis
+brew install vim --with-override-system-vi
 
 # Install brew cask
 brew install caskroom/cask/brew-cask
